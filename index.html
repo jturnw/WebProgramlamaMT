@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<head>
+  <title>scikit-learn: machine learning in Python &mdash; scikit-learn 0.24.0 documentation</title>
+
+  <link rel="canonical" href="index.html" />
+
+
+  <link rel="shortcut icon" href="./favicon.ico" />
+
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/theme.css" type="text/css" />
+  <script src="assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar bg-light navbar-expand-md navbar-light py-0">
+    <div class="container-fluid px-0" style="max-width: 1400px;">
+      <a class="navbar-brand py-0" href="#">
+        <img style="height: 48px;" src="assets/images/icons/scikit-learn-logo-small.png" alt="logo" />
+      </a>
+      <button id="navbar-toggler" class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Install</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">User Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Examples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Getting Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">What's new</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Glossary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Development</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Related packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Roadmap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">GitHub</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="display: none;" href="#">Other Versions and Download</a>
+          </li>
+          <li class="nav-item dropdown navigation-dropdown-item">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">More</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Getting Started</a>
+              <a class="dropdown-item" href="#">Tutorial</a>
+              <a class="dropdown-item" href="#">What's new</a>
+              <a class="dropdown-item" href="#">Glossary</a>
+              <a class="dropdown-item" href="#">Development</a>
+              <a class="dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item" href="#">Support</a>
+              <a class="dropdown-item" href="#">Related packages</a>
+              <a class="dropdown-item" href="#">Roadmap</a>
+              <a class="dropdown-item" href="#">About us</a>
+              <a class="dropdown-item" href="#">GitHub</a>
+              <a class="dropdown-item" href="#">Other Versions and Download</a>
+            </div>
+          </li>
+        </ul>
+        <div id="searchbox" role="search">
+          <form class="search">
+            <input class="search-text-input" type="text" name="q" aria-labelledby="searchlabel" />
+            <input class="search-text-btn" type="submit" value="Go" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid list-bg py-3">
+    <div class="container list-container">
+      <div class="row">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <h1 class="text-white text-monospace">scikit-learn</h1>
+          <h4 class="text-white font-italic mb-3">Machine Learning in Python</h4>
+          <a class="btn list-btn mb-1" href="#" role="button">Getting Started</a>
+          <a class="btn list-btn mb-1" href="#" role="button">Release Highlights for 0.24</a>
+          <a class="btn list-btn mb-1" href="#" role="button">GitHub</a>
+        </div>
+        <div class="col-md-6 d-flex">
+          <ul class="list-header-body">
+            <li>Simple and efficient tools for predictive data analysis</li>
+            <li>Accessible to everybody, and reusable in various contexts</li>
+            <li>Built on NumPy, SciPy, and matplotlib</li>
+            <li>Open source, commercially usable - BSD license</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container list-container pt-3 body" role="main">
+    <div class="row no-gutters">
+      <div class="col-md-4 mb-3 px-md-2 px-xl-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title card-title">Classification</h4>
+            </a>
+            <p class="card-text">Identifying which category an object belongs to.</p>
+            <p class="card-text"><strong>Applications:</strong> Spam detection, image recognition.</br>
+              <strong>Algorithms:</strong>
+              <a href="#">SVM</a>,
+              <a href="#">nearest neighbors</a>,
+              <a href="#">random forest</a>,
+              and <a href="#">more...</a>
+            </p>
+          </div>
+          <div class="overflow-hidden mx-2 text-center flex-fill">
+            <a href="#">
+              <img src="assets/images/sphx_glr_plot_classifier_comparison_001_carousel.png" class="index-img"
+                style="width:initial;max-width:initial" alt="Classifier comparison">
+            </a>
+          </div>
+          <a href="#" class="btn-primary btn text-white btn-block" role="button">Examples</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 px-md-2 px-xl-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title card-title">Regression</h4>
+            </a>
+            <p class="card-text">Predicting a continuous-valued attribute associated with an object.</p>
+            <p class="card-text"><strong>Applications:</strong> Drug response, Stock prices.</br>
+              <strong>Algorithms:</strong>
+              <a href="#">SVR</a>,
+              <a href="#">nearest neighbors</a>,
+              <a href="#">random forest</a>,
+              and <a href="#">more...</a>
+            </p>
+          </div>
+          <div class="overflow-hidden mx-2 text-center flex-fill">
+            <a href="#">
+              <img src="assets/images/sphx_glr_plot_adaboost_regression_thumb.png" class="index-img"
+                >
+            </a>
+          </div>
+          <a href="#" class="btn-primary btn text-white btn-block" role="button">Examples</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 px-md-2 px-xl-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title card-title">Clustering</h4>
+            </a>
+            <p class="card-text">Automatic grouping of similar objects into sets.</p>
+            <p class="card-text"><strong>Applications:</strong> Customer segmentation, Grouping experiment outcomes</br>
+              <strong>Algorithms:</strong>
+              <a href="#">k-Means</a>,
+              <a href="#">spectral clustering</a>,
+              <a href="#">mean-shift</a>,
+              and <a href="#">more...</a>
+            </p>
+          </div>
+          <div class="overflow-hidden mx-2 text-center flex-fill">
+            <a href="#">
+              <img src="assets/images/sphx_glr_plot_kmeans_digits_thumb.png" class="index-img"
+                >
+            </a>
+          </div>
+          <a href="#" class="btn-primary btn text-white btn-block" role="button">Examples</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 px-md-2 px-xl-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title card-title">Dimensionality reduction</h4>
+            </a>
+            <p class="card-text">Reducing the number of random variables to consider.</p>
+            <p class="card-text"><strong>Applications:</strong> Visualization, Increased efficiency</br>
+              <strong>Algorithms:</strong>
+              <a href="#">k-Means</a>,
+              <a href="#">feature selection</a>,
+              <a href="#">non-negative matrix factorization</a>,
+              and <a href="#">more...</a>
+            </p>
+          </div>
+          <div class="overflow-hidden mx-2 text-center flex-fill">
+            <a href="#">
+              <img src="assets/images/sphx_glr_plot_pca_iris_thumb.png" class="index-img"
+                >
+            </a>
+          </div>
+          <a href="#" class="btn-primary btn text-white btn-block" role="button">Examples</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 px-md-2 px-xl-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title card-title">Model selection</h4>
+            </a>
+            <p class="card-text">Comparing, validating and choosing parameters and models.</p>
+            <p class="card-text"><strong>Applications:</strong> Improved accuracy via parameter tuning</br>
+              <strong>Algorithms:</strong>
+              <a href="#">grid search</a>,
+              <a href="#">cross validation</a>,
+              <a href="#">metrics</a>,
+              and <a href="#">more...</a>
+            </p>
+          </div>
+          <div class="overflow-hidden mx-2 text-center flex-fill">
+            <a href="#">
+              <img src="assets/images/sphx_glr_plot_multi_metric_evaluation_thumb.png" class="index-img">
+            </a>
+          </div>
+          <a href="#" class="btn-primary btn text-white btn-block" role="button">Examples</a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3 px-md-2 px-xl-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <a href="#">
+              <h4 class="card-title card-title">Preprocessing</h4>
+            </a>
+            <p class="card-text">Feature extraction and normalization.</p>
+            <p class="card-text"><strong>Applications:</strong> Transforming input data such as text for use with
+              machine learning algorithms.</br>
+              <strong>Algorithms:</strong>
+              <a href="#">preprocessing</a>,
+              <a href="#">feature extraction</a>,
+              and <a href="#">more...</a>
+            </p>
+          </div>
+          <div class="overflow-hidden mx-2 text-center flex-fill">
+            <a href="#">
+              <img src="assets/images/sphx_glr_plot_discretization_strategies_thumb.png" class="index-img">
+            </a>
+          </div>
+          <a href="#" class="btn-primary btn text-white btn-block" role="button">Examples</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid list-bg-more-info py-3">
+    <div class="container list-container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="information-header">Özgeçmiş</h4>
+          <ul class="information-list list-unstyled">
+            <li><strong>Yiğit Alptürk Durmaz</strong>
+              <p>Uzun yıllar boyunca materyal düzenleme(Video,Foto) ve buna benzer işlerde prodüksiyon, organizasyon gibi alanlarda rol almıştır.
+              Yurt dışında geçirdiği sürede sertifikalar almış, reklam filmi çekip düzenlemiştir. Üniversite hayatına başladıktan sonra ilk etapta android studio ile tanışmış,
+              daha sonra araştırmalar neticesinde kendini back-end development alanında geliştirmeye karar vermiştir. Örgün eğitimi Erciyes Üniversitesi Bilgisayar Mühendisliği
+              bölümünde devam etmektedir.</p>              
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="information-header">Community</h4>
+          <ul class="information-list list-unstyled">
+            <li><strong>About us:</strong> See <a href="#">authors</a> and <a href="#">contributing</a></li>
+            <li><strong>More Machine Learning:</strong> Find <a href="#">related projects</a></li>
+            <li><strong>Questions?</strong> See <a href="#">FAQ</a> and <a href="#">stackoverflow</a></li>
+            <li><strong>Mailing list:</strong> <a href="#">scikit-learn@python.org</a></li>
+            <li><strong>Gitter:</strong> <a href="#">gitter.im/scikit-learn</a></li>
+            <li>Communication on all channels should respect <a href="#">PSF's code of conduct.</a></li>
+          </ul>
+
+          <a class="btn btn-warning btn-big donate-btn mb-1"
+            href="#">Help us, <strong>donate!</strong></a>
+          <a class="btn btn-warning btn-big mb-1" href="#"><strong>Cite us!</strong></a>
+        </div>
+        <div class="col-md-4">
+          <h4 class="information-header">Who uses scikit-learn?</h4>
+          <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block mx-auto who-uses-carousel-img img-thumbnail" src="assets/images/inria.png"
+                  alt="inria">
+                <em>"We use scikit-learn to support leading-edge basic research [...]"</em>
+              </div>
+          </div>
+          <p class="text-right">
+            <a href="#">More testimonials</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid py-3">
+    <div class="container list-container">
+      <a class="footer-funding-link" href="#">
+        <div class="text-center">
+          <p class="mt-2">
+            scikit-learn development and maintenance are financially supported by
+          </p>
+          <img class="footer-funding-logo" src="assets/images/icons/inria-small.png" title="INRIA">
+          <img class="footer-funding-logo" src="assets/images/icons/columbia-small.png" title="Columbia University">
+          <img class="footer-funding-logo" src="assets/images/icons/sloan_logo-small.png"
+            title="Alfred P. Sloan Foundation">
+          <img class="footer-funding-logo" src="assets/images/icons/sydney-stacked-small.png"
+            title="The University of Sydney">
+          <img class="footer-funding-logo" src="assets/images/icons/bcg-small.png" title="Boston Consulting Group">
+          <img class="footer-funding-logo" src="assets/images/icons/axa-small.png" title="AXA Assurances">
+          <img class="footer-funding-logo" src="assets/images/icons/bnp-small.png" title="BNP Paris Bas Cardif">
+          <img class="footer-funding-logo" src="assets/images/icons/fujitsu-small.png" title="Fujitsu">
+          <img class="footer-funding-logo" src="assets/images/icons/microsoft-small.png" title="Microsoft">
+          <img class="footer-funding-logo" src="assets/images/icons/dataiku-small.png" title="Dataiku">
+          <img class="footer-funding-logo" src="assets/images/icons/zalando_logo-small.png" title="Zalando SE">
+        </div>
+      </a>
+    </div>
+  </div>
+
+</body>
+
+
+</html>
