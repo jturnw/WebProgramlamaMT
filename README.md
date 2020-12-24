@@ -1,16 +1,15 @@
-# sitesinin frontend birebir yeniden tasarımı 
+# https://scikit-learn.org sitesinin front-end birebir yeniden tasarımı 
 ## BS435 Web Programlama 1 Dersi Vize Ödevi
 ### Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü  
 
-MAHMUT ABDÜL SAMSUN
+Öğrenci Bilgileri : Yiğit Alptürk Durmaz
+1030522937 (İkinci Öğretim)
 
 
 # Dosyalar
 
-1. ...
-2. ...
-3. ...
- 
+1. assets folder
+2. index.html
 
 # Kullanılan Araçlar
 
@@ -23,14 +22,10 @@ MAHMUT ABDÜL SAMSUN
 # Kullanılan Yazılımlar
 
  1. VSCode
- 2. WebStorm
- 3. Notepad++
- 4. ....
 
 # Kullanılan Yöntemler
 
  1. Tasarım sistemleri
- 2. GraphQL
- 3. CI/CD
- 4. Test otomasyonu
- 5. Sunucusuz sistemler
+ 2. Test otomasyonu
+ 3. Sunucusuz sistemler
+
